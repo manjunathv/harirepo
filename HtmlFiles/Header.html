@@ -1,0 +1,30 @@
+﻿<script src="../Scripts/Jquery%201.9.1/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var mainHeader = $("#mainHeader");
+        mainHeader.click(function (e) {
+            var target = $(e.target);
+            if (target[0].nodeName = "TD") {
+                mainHeader.find(".tabHover").removeClass("tabHover");
+                target.addClass("tabHover");
+                var pageContent = $(document).find(".PageContent");
+                if (target.hasClass("Home")) {
+                }
+                else if (target.hasClass("Analytics")) {
+                    window.location.href("\Analytics.html");
+                }
+            }
+        });
+    });
+</script>
+
+<div style="text-align: right" class="ui-widget-header app-header-menu-bar app-no-textselect">
+    <table id="mainHeader">
+        <tr>
+            <td class="Home">Home</td>
+            <td class="Analytics">Analytics</td>
+            <td>About</td>
+            <td>Contact</td>
+        </tr>
+    </table>
+</div>

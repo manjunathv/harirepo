@@ -1,0 +1,91 @@
+﻿html {
+    width: 99.5%;
+    height: 99.2%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #4297d7;
+}
+
+.Header {
+    width: 100%;
+    height: 5%;
+}
+
+.PageContent {
+    width: 100%;
+    height: 95%;
+    border: 1px solid red;
+}
+
+.Header table {
+    width: 40%;
+    display: inline-block;
+    height: 29px;
+}
+
+.Header td {
+    border-radius: 4px 4px 4px 4px;
+    width: 10%;
+    height: 25px;
+    text-align: center;
+}
+
+    .Header td:hover {
+        cursor: pointer;
+        box-shadow: 0px 2px 20px 1px black;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+.Logo {
+    left: 3%;
+    top: 9%;
+    height: 18%;
+    position: absolute;
+    width: 13%;
+}
+
+
+.default-realtimeanalytics {
+    width: 41%;
+    top: 28%;
+    position: absolute;
+    left: 32%;
+    height: 45%;
+    font-size: 28pt;
+}
+
+.default-realtimeanalytics-descirption {
+    width: 60%;
+    font-size: 14pt;
+    left: 23%;
+    position: absolute;
+    top: 72%;
+}
+
+
+.default-realtimeanalytics div:nth-child(odd) {
+    height: 65%;
+}
+
+.default-realtimeanalytics div:nth-child(even) {
+    height: 20%;
+}
+
+.chartContainer-main {
+    position:absolute;
+    top:30%;
+    left:27%;
+    box-shadow: 1px 5px 34px -6px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.tabHover {
+    box-shadow: 0px 2px 20px 1px black;
+}

@@ -1,0 +1,5 @@
+c:\users\harikrishna\documents\visual studio 2012\Projects\Diglitical\Diglitical\bin\Diglitical.dll
+c:\users\harikrishna\documents\visual studio 2012\Projects\Diglitical\Diglitical\bin\Diglitical.pdb
+c:\users\harikrishna\documents\visual studio 2012\Projects\Diglitical\Diglitical\obj\Release\Diglitica.csprojResolveAssemblyReference.cache
+c:\users\harikrishna\documents\visual studio 2012\Projects\Diglitical\Diglitical\obj\Release\Diglitical.dll
+c:\users\harikrishna\documents\visual studio 2012\Projects\Diglitical\Diglitical\obj\Release\Diglitical.pdb

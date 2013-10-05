@@ -1,0 +1,59 @@
+﻿<link href="../Content/Site.css" rel="stylesheet" />
+<link href="../Content/Custom%20UI/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+<script src="../Scripts/Jquery%201.9.1/jquery-1.9.1.js"></script>
+<script src="../Scripts/Jquery%201.9.1/jquery-ui-1.10.3.custom.js"></script>
+<script src="../Scripts/Agent/UI.js"></script>
+<script src="../Scripts/HighCharts/highcharts.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var options = {
+            colors: ["#00FF00", "#FF3300"],
+            data: [
+                ['Healthy', 80],
+                ['Failure', 20]
+            ]
+        };
+
+        function openPopUp() {
+            var colors = Highcharts.getOptions().colors;
+            var barChartOptions = {
+                categories: ["Battery", "Camera", "Other"],
+                name: "Electronic devices",
+                data: [
+                    {
+                        y: 66,
+                        color: colors[0],
+                        drilldown: {
+                            name: 'Battery details',
+                            categories: ['Temerature', 'Voltage', 'Battery Capacity'],
+                            data: [10.85, 7.35, 33.06],
+                            color: colors[0]
+                        }
+                    },
+                    {
+                        y: 21.63,
+                        color: colors[1],
+                        drilldown: {}
+                    },
+                    {
+                        y: 11.94,
+                        color: colors[2],
+                        drilldown: {}
+                    }
+                ]
+            };
+
+            new Agent.Charts.CreateBarChart($("#popupContainer"), barChartOptions);
+        }
+
+        var chart = Agent.Charts.CreateChart("Model X Health Rate", $('#chartContainer'), options, openPopUp);
+
+        //Agent.HighlightTab(2);
+    });
+</script>
+<div id='chartContainer' class="chartContainer-main">
+</div>
+<div class='chartContainer-main' style="text-align: center" id='popupContainer'>
+    <div id="chart1">
+    </div>
+</div>

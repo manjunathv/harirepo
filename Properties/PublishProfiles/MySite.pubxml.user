@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\MyOne</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Diglitical.dll">
+      <publishTime>10/05/2013 06:15:41</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/animated-overlay.gif">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_flat_55_fbec88_40x100.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_glass_75_d0e5f5_1x400.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_glass_85_dfeffc_1x400.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_inset-hard_100_f5f8f9_1x100.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-icons_217bc0_256x240.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-icons_469bdd_256x240.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-icons_6da8d5_256x240.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-icons_d8e7f3_256x240.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/images/ui-icons_f9bd01_256x240.png">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/jquery-ui-1.10.3.custom.css">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Custom UI/jquery-ui-1.10.3.custom.min.css">
+      <publishTime>10/05/2013 00:47:30</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>10/05/2013 03:35:22</publishTime>
+    </File>
+    <File Include="HtmlFiles/Analytics.html">
+      <publishTime>10/05/2013 03:35:30</publishTime>
+    </File>
+    <File Include="HtmlFiles/Default.html">
+      <publishTime>10/05/2013 03:26:16</publishTime>
+    </File>
+    <File Include="HtmlFiles/Header.html">
+      <publishTime>10/05/2013 01:45:07</publishTime>
+    </File>
+    <File Include="HtmlFiles/Home.html">
+      <publishTime>10/05/2013 02:28:11</publishTime>
+    </File>
+    <File Include="Images/diglitica.png">
+      <publishTime>10/05/2013 01:38:02</publishTime>
+    </File>
+    <File Include="Images/Mobile.jpg">
+      <publishTime>10/05/2013 01:38:02</publishTime>
+    </File>
+    <File Include="Images/RealTimeAnalytics.jpg">
+      <publishTime>10/05/2013 01:38:02</publishTime>
+    </File>
+    <File Include="Scripts/Agent/UI.js">
+      <publishTime>10/05/2013 00:42:39</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/adapters/mootools-adapter.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/adapters/mootools-adapter.src.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/adapters/prototype-adapter.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/adapters/prototype-adapter.src.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/adapters/standalone-framework.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/adapters/standalone-framework.src.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/highcharts-more.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/highcharts-more.src.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/highcharts.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/highcharts.src.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/annotations.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/annotations.src.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/canvas-tools.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/canvas-tools.src.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/data.js">
+      <publishTime>10/05/2013 00:42:46</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/data.src.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/exporting.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/exporting.src.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/funnel.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/funnel.src.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/heatmap.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/heatmap.src.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/map.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/modules/map.src.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/themes/dark-blue.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/themes/dark-green.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/themes/gray.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/themes/grid.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/HighCharts/themes/skies.js">
+      <publishTime>10/05/2013 00:42:47</publishTime>
+    </File>
+    <File Include="Scripts/Jquery 1.9.1/jquery-1.9.1.js">
+      <publishTime>10/05/2013 00:42:57</publishTime>
+    </File>
+    <File Include="Scripts/Jquery 1.9.1/jquery-ui-1.10.3.custom.js">
+      <publishTime>10/05/2013 00:42:57</publishTime>
+    </File>
+    <File Include="Scripts/Jquery 1.9.1/jquery-ui-1.10.3.custom.min.js">
+      <publishTime>10/05/2013 00:42:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/05/2013 06:15:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
